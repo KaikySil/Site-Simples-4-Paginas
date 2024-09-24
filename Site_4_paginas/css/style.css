@@ -1,0 +1,70 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(16, 16, 16);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(31, 31, 31);
+}
+
+header h1 a{
+    color: white;
+    text-decoration: none;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-left: 1020px;
+}
+
+.links a {
+    color: rgb(6, 125, 205);
+    text-decoration: none;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.principal{
+    background-color: rgb(19, 19, 19);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.div_imagem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem_mecanica{
+    width: 65%;
+}
+
+.div_texto{
+    display: flex;
+    align-items: center;
+}
+
+.div_texto span{
+    font-size: 17px;
+}
